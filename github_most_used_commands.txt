@@ -32,3 +32,12 @@ git checkout -B nuova-branch
 # comando per passare ad una branch già esistente
 git checkout branch-esistente
 
+# Dimenticati di questi file
+git rm -r --cached .idea
+
+# Togliere il commit MA lasciare i file intatti
+git reset --soft
+
+
+# Riporta la branch all'ultimo commit. ATTENZIONE perdita di file
+git reset --hard
