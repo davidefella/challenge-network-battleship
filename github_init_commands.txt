@@ -1,0 +1,21 @@
+# Comandi standard di git che non sono vincolati al provider in remoto (Github, Bitbucket, Gitlab..)
+# Vanno lanciati solo al primo init!!!
+
+
+#non necessario echo "# challenge-network-battleship" >> README.md
+git init # crea cartella nascosta .git, per noi come non esistesse :)
+
+# il . vuol dire "Aggiungere da questa directory "
+git add .
+
+# scegli nomi parlanti
+git commit -m "first commit"
+
+# crea una nuova branch in questo caso ridondante (ma non errore)
+git branch -M main
+
+# git remote "aggancia" la nostra repo locale a quella remota
+git remote add origin https://github.com/davidefella/challenge-network-battleship.git
+
+# manda i file in remoto (github in questo)
+git push -u origin main
