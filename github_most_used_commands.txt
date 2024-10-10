@@ -1,0 +1,6 @@
+git status # Mi da lo status della branch
+
+git add . # Aggiungo TUTTI i file all'area di staging, usa con cautela
+alternativa
+git add $nome-file # Aggiungo solo file singoli
+
