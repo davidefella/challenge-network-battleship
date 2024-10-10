@@ -1,7 +1,7 @@
 #non necessario echo "# challenge-network-battleship" >> README.md
 git init # crea cartella nascosta .git, per noi come non esistesse :)
 git add . # il . vuol dire "Aggiungere da questa directory "
-git commit -m "first commit"
+git commit -m "first commit" # scegli nomi parlanti
 git branch -M main
 git remote add origin https://github.com/davidefella/challenge-network-battleship.git
 git push -u origin main
