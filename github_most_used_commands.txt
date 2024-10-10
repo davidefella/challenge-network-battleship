@@ -4,3 +4,12 @@ git add . # Aggiungo TUTTI i file all'area di staging, usa con cautela
 alternativa
 git add $nome-file # Aggiungo solo file singoli
 
+#Controllo cosa sto committando
+git diff # show diff su IntelliJ :)
+
+# Fino al commit rimango in locale sul mio pc
+git commit -m "Messaggio parlante di qualche parola"
+
+# Porta le mie modifiche in remoto su Github
+git push
+
