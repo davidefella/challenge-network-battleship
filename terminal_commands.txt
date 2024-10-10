@@ -1,0 +1,12 @@
+cd nome_cartella --> Change Directory
+cd .. --> Level up
+cd . --> Root Level
+
+ls --> List files
+ls -a --> List files hidden
+
+mkdir nome_cartella --> Make Directory
+
+clear --> Pulisce la console
+
+history --> per avere lo storico dei comandi

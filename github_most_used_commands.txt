@@ -13,3 +13,22 @@ git commit -m "Messaggio parlante di qualche parola"
 # Porta le mie modifiche in remoto su Github
 git push
 
+# Scarico un progetto git già esistente
+# ""alternativa"" a git init, nel senso che scarico un progetto già esistente e non devo crearlo
+git clone $indirizzo_remoto.git
+
+# Allineo le modifiche dal mio remoto (opposto del "push")
+git pull
+
+# Comando per fare il merge delle modifiche (consiglio editor visuale)
+git merge nome-branch-da-cui-mergiare
+
+# Lista di tutti i commits
+git log
+git log --all --decorate --oneline --graph
+
+# comando per CREARE una nuova branch e fare checkout automatico
+git checkout -B nuova-branch
+# comando per passare ad una branch già esistente
+git checkout branch-esistente
+
