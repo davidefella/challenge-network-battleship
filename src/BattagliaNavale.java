@@ -5,7 +5,6 @@ public class BattagliaNavale {
     final static char WATER_CHAR = '~';
     final static char SHIP_CHAR = 'S';
 
-    // commands potrebbe essere un array di comandi
     final static String commands = "Comandi: ATTACCA, STAMPA, AIUTO, ESCI";
 
     public static void main(String[] args) {
